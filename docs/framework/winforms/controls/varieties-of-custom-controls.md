@@ -93,7 +93,7 @@ With the .NET Framework, you can develop and implement new controls. You can ext
  Although the Windows Forms infrastructure has been optimized to host Windows Forms controls, you can still use ActiveX controls. There is support for this task in Visual Studio. For more information, see [How to: Add ActiveX Controls to Windows Forms](../../../../docs/framework/winforms/controls/how-to-add-activex-controls-to-windows-forms.md).  
   
 ### Windowless Controls  
- The Microsoft Visual Basic® 6.0and ActiveX technologies support *windowless* controls. Windowless controls are not supported in Windows Forms.  
+ The Microsoft Visual Basic® 6.0 and ActiveX technologies support *windowless* controls. Windowless controls are not supported in Windows Forms.  
   
 ## Custom Design Experience  
  If you need to implement a custom design-time experience, you can author your own designer. For composite controls, derive your custom designer class from the <xref:System.Windows.Forms.Design.ParentControlDesigner> or the <xref:System.Windows.Forms.Design.DocumentDesigner> classes. For extended and custom controls, derive your custom designer class from the <xref:System.Windows.Forms.Design.ControlDesigner> class.  
